@@ -1,0 +1,25 @@
+{
+	"name": "sdu-cloud-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"author": {
+		"name": "SongyangJi"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"vue": "^3.2.47"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^4.1.0",
+		"husky": "^8.0.3",
+		"prettier": "^2.8.8",
+		"vite": "^4.3.2"
+	}
+}
